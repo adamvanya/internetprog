@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* Fő kinézet*/
+
+body{
+	background-color: #DDD;
+	font-family:Comic Sans MS,Helvetica,Arial,sans-serif;
+	/*font-size:12px;*/
+}
+
+#kontener{
+	background-color: #FFF;
+	width: 700px;
+	margin-left:auto;
+	margin-right:auto;
+	border:0px solid;
+	border-radius:25px;
+	
+	
+}
+
+#fejlec{
+	background-color:#8bc53f;
+	border:0px solid;
+	border-radius:25px 25px 5px 5px;
+	text-align:center;
+	color:#FFF;
+	padding:10px;
+}
+
+#main{
+	padding:10px;
+	
+}
+
+#menu{
+	width:180px;
+	float:left;
+}
+
+
+
+#tartalom{
+	width:500px;
+	
+	margin-left:250px;
+}
+
+#vizjel{
+	clear:both;
+	background-color:#999;
+	padding:10px;
+	padding-right:20px;
+	border:0px solid;
+	border-radius:5px 5px 25px 25px;
+	text-align:right;
+}
+
+.navi>ul{
+		background-color:#333;
+		color:#d8d8d8;
+		font-family:Impact,sans-serif;
+		font-size:20px;
+		position:relative;
+		padding:5px;
+}
+
+.navi>ul>li{
+	list-style-type:none;
+	padding:8px 5px 8px 5px;	
+}
+
+.navi>ul>li:hover{
+	background-color:#111;
+	
+}
+
+ul.almenu{
+	position:absolute;
+	margin-left:150px;
+	padding:0px;
+	background-color:#666;
+	margin-top:-35px;
+	display:none
+}
+
+ul.almenu>li{
+	list-style-type:none;
+	padding:8px 5px 8px 5px;
+}
+	
+.navi>ul>li:hover .almenu{
+	display:block;
+}
+
+ul.almenu>li:hover{
+	background-color:#111;
+}
+
+a{
+	text-decoration:none;
+	color:inherit;
+}
